@@ -28,8 +28,6 @@ const EventCard = ({image, title, slug, location, date, time}: Props) => {
             <p>{time}</p>
           </div>
         </div>
-        {/* <p className="date">{date}</p>
-        <p className="time">{time}</p> */}
     </Link>
   )
 }
